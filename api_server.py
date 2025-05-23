@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import Literal
-from secrets import OPENAI_API_KEY, GEMINI_API_KEY, DEEP_SEEK_API_KEY
+from llm_keys import OPENAI_API_KEY, GEMINI_API_KEY, DEEP_SEEK_API_KEY
 import openai
 import requests
 
