@@ -2,3 +2,8 @@ fastapi
 uvicorn
 httpx
 pydantic
+openai
+requests
+anthropic
+google-generativeai
+deepseekr1
